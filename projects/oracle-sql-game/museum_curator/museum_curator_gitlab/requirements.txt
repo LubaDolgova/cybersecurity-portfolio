@@ -1,0 +1,11 @@
+# pygame-ce — активно развиваемый форк pygame. Импортируется точно так же
+# (import pygame), API совместим, но колёса выходят для новых версий
+# Python сразу. Обычный pygame на Python 3.14 пока не ставится.
+# Если у вас уже стоит обычный pygame, сначала: pip uninstall pygame
+pygame-ce>=2.5
+
+oracledb>=2.0
+
+# Только для сборки exe (scripts\build_exe.ps1). Для запуска из исходников
+# не нужен.
+pyinstaller>=6.0
